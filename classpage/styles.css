@@ -26,20 +26,20 @@ h2 {
     height: 610px;
 }
 
-a {
+a:link {
     color: #66CCFF;
     text-decoration: none;
 }
 
-a: visited {
-    color: #3B7693;
+a:visited {
+    color: #52A3CC;
 }
 
-a: hover {
-    color: #3B7693;
+a:hover {
+    color: #52A3CC;
 }
 
-a: active {
+a:active {
     color: #B26B47;
 }
 
