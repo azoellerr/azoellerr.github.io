@@ -1,0 +1,35 @@
+body {
+    background-color: #b5b5b5;
+    font-family: helvetica;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #5890bf;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #838383;
+}
+
+a:hover {
+    color: #de854f;
+}
+
+a:active {
+    color: #838383;
+}

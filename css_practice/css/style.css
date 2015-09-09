@@ -1,0 +1,31 @@
+body {
+  background-color: #faafaf;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-family: helvetica, arial;
+  font-size: 80px;
+  color: white;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  font-family: helvetica, arial;
+  color: white;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.special {
+  font-size: 18px;
+}
+
+#last {
+  font-size: 30px;
+  padding: 30px;
+  color: #70e3d7;
+  background-color: white;
+}
