@@ -25,6 +25,7 @@ h2 {
     position: absolute;
     border: 6px solid #999999;
     height: 610px;
+    position: fixed;
 }
 
 a:link {
