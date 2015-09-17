@@ -11,14 +11,14 @@ a:link {
 }
 
 a:hover {
-    color: #939597;
+    color: #B2B2B2;
     font-family: Helvetica;
     font-size: 12px;
     text-decoration: none;
 }
 
 a:visited {
-    color: #67686A;
+    color: #939597;
     font-family: Helvetica;
     font-size: 12px;
     text-decoration: none;
