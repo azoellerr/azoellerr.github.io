@@ -7,6 +7,7 @@ body {
     width: 850px;
     padding-top: 40px;
     padding-left: 40px;
+    position: relative
 }
 
 h1 {
