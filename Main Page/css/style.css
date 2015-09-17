@@ -1,0 +1,16 @@
+body {
+    background-color: #fde0d3;
+    text-align: center;
+}
+
+a:link {
+    color: #939597;
+    font-family: Helvetica;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.logo {
+    padding-top: 75px;
+    text-align: center;
+}
