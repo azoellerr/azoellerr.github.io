@@ -81,3 +81,34 @@ code {
 .clear {
   clear: both;
 }
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #70e3d7;
+  border: 50px solid black;
+  border-top: 50px solid white;
+    margin: 0 auto;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 100px solid black;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  position: absolute;
+  z-index: 100;
+}
+
+.triangle2 {
+  width: 0;
+  height: 0;
+  border-top: 100px solid white;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  position: relative;
+  left: 100px;
+  top: 20px;
+  z-index: 200;
+}
