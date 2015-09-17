@@ -1,12 +1,12 @@
 body {
-    background-color: white;
+    background-color: #ededed;
     line-height: 1.5;
     font-size: 13px;
     font-family: helvetica;
     color: #999999;
     width: 850px;
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 40px;
+    padding-left: 40px;
 }
 
 h1 {
@@ -23,9 +23,11 @@ h2 {
     padding-left: 35px;
     width: 270px;
     position: absolute;
-    border: 6px solid #999999;
+    border: 8px solid #999999;
     height: 610px;
     position: fixed;
+    box-shadow: 10px 10px 5px #cccccc;
+    background-color: white;
 }
 
 a:link {
