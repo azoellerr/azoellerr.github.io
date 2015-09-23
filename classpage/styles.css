@@ -12,11 +12,13 @@ body {
 
 h1 {
     color: #FF9C22;
-    font-size: 35px;
+    font-size: 60px;
+    position: relative;
+    left: 100px;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 200px;
     color: #878787;
 }
 
@@ -26,7 +28,8 @@ h2 {
     position: absolute;
     border: 8px solid #999999;
     height: 610px;
-    position: fixed;
+    position: absolute;
+    left: 100px;
     box-shadow: 11px 11px 5px #cccccc;
     background-color: white;
     border-left: 8px solid #b5b5b5;
@@ -58,8 +61,10 @@ a:active {
     background-color: white;
     width: 550px;
     padding: 18px 10px 10px 10px;
-    box-shadow: 4px 4px 6px #cccccc;
-    margin: 40px 20px;
+    box-shadow: 6px 6px 6px #cccccc;
+    margin: 40px 60px;
+    position: absolute;
+    left: 650px;
 }
 
 .nt {
