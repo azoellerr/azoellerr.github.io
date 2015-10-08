@@ -1,6 +1,7 @@
 body {
     background-color: #fde0d3;
     text-align: center;
+    line-height: 16px;
 }
 
 a:link {
@@ -26,4 +27,13 @@ a:visited {
 .logo {
     padding-top: 75px;
     text-align: center;
+}
+
+h1 {
+    font-family: Helvetica;
+}
+
+.yellow {
+    background-color: white;
+    font-size: 50px;
 }
