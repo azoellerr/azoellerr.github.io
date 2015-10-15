@@ -1,0 +1,19 @@
+.toggle {
+    font-size: 28px;
+    padding: 20px 30px;
+    font-family: "Helvetica";
+    color: #cdcdcd;
+    letter-spacing: 1px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 60px;
+    border: none;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+.images {
+    padding: 70px 100px;
+}
