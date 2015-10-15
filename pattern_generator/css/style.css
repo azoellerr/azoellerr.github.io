@@ -1,19 +1,24 @@
 .toggle {
+    position: absolute;
     font-size: 28px;
     padding: 20px 30px;
     font-family: "Helvetica";
     color: #cdcdcd;
     letter-spacing: 1px;
     background-color: white;
-    margin-left: 100px;
-    margin-top: 60px;
+    margin-left: 60px;
+    margin-top: 130px;
     border: none;
+    z-index: 100000000;
+    
 }
 
 body {
     background-color: #F1F1F1;
 }
 
-.images {
-    padding: 70px 100px;
+#asshole {
+    height: 400px;
+    position: absolute;
+    padding: 3px;
 }

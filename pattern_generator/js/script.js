@@ -1,32 +1,27 @@
-$(".images").html() {
-var random_images = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg" , "image7.jpg" , "image8.jpg" , "image9.jpg" , "image10.jpg"];
-});
 
-random_images[Math.floor(Math.random()*random_images.length)];
+ var myImages1 =["images/image1.jpg","images/image2.jpg","images/image3.jpg","images/image4.jpg","images/image5.jpg",
+ "images/image6.jpg","images/image7.jpg","images/image8.jpg","images/image9.jpg","images/image10.jpg"]
 
-var currentimg = false;
 
-for (var i = 0; i < 100; i++) {
-    $("body").append("<div class='images'></div>");
-};
-
-$(".toggle").click(function() {
-    
-    $(".images").each(function() {
-    var randtop = Math.floor(Math.random() * 1000) + "px";
-    var randleft = Math.floor(Math.random() * 1000) + "px";
-    
-   $(this).css("top", randtop);
-   $(this).css("left", randleft);
-  
-});
-    var randomimg = images[Math.floor(Math.random()*images.length)];
-    
-    while (randomimg == currentimg) {
-        randomimg = images[Math.floor(Math.random()*images.length)];
+ function randomImg1(){
+//        var myImages1 = new Array ();
+ /*       myImages1[1] = "images/image1.jpg";
+        myImages1[2] = "images/image2.jpg";
+        myImages1[3] = "images/image3.jpg";
+        myImages1[4] = "images/image4.jpg";
+        myImages1[5] = "images/image5.jpg";
+        myImages1[6] = "images/image6.jpg";
+        myImages1[7] = "images/image7.jpg";
+        myImages1[8] = "images/image8.jpg";
+        myImages1[9] = "images/image9.jpg";
+        myImages1[10] = "images/image10.jpg";*/
+        var rnd = Math.floor( Math.random() * myImages1.length );
+        console.log("hello, its working")
+      if( rnd == 0 ) {
+        rnd =1;
+      }
+      //document.write('<img class="images" src="' + myImages1[rnd] + '"/>');
+      $("#asshole").append('<img class="images" src="' + myImages1[rnd] + '"/>');
+     // $("div").html("<img src=","images/image1.jpg",">");
+   // console.log("hello, its working02")
     }
-    
-    currentimg = randomimg;
-    
-    $(".images").html("<img src='img/" + randomimg + "'>");
-});
