@@ -1,5 +1,5 @@
 .toggle {
-    position: absolute;
+    position: fixed;
     font-size: 28px;
     padding: 20px 30px;
     font-family: "Helvetica";
