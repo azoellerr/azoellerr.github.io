@@ -76,6 +76,15 @@ h2 {
     bottom: 300px;
 }
 
+.underline {
+    width: 28px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    left: 386;
+    bottom: 385px;
+}
+
 
 @font-face { font-family: Letter Gothic; src: url('LetterGothicStd.otf');
 }
