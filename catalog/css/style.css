@@ -1,0 +1,93 @@
+body {
+    background-color: #A2A2A2;
+    margin: 0px;
+    border: 30px solid black;
+}
+
+h1 {
+    color: white;
+    font-family: "LetterGothicStd";
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h2 {
+    color: white;
+    font-family: "LetterGothicStd";
+    transform: rotate(270deg);
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    width: 140px;
+    left: -45px;
+}
+
+.letterP {
+    font-family: "Rockwell";
+    font-size: 80px;
+    height: 80px;
+    margin-left: 150px;
+    text-align: right;
+    width: 100px;
+}
+
+.letterO {
+    font-family: "DIN";
+    font-size: 80px;
+    margin-left: 200px;
+    text-align: center;
+    width: 400px;
+
+}
+
+.letterE {
+    font-family: "Didot";
+    font-size: 80px;
+    position: relative;
+    top: 120px;
+    left: 450px;
+
+}
+
+.letterT {
+    font-family: "Gobold";
+    font-size: 80px;
+    position: relative;
+    left: 625px;
+    bottom: 50px;
+}
+
+.letterR {
+    font-family: "Gotham-ThinItalic";
+    font-size: 80px;
+    font-style: italic;
+    position: relative;
+    bottom: 275px;
+    left: 750px;
+}
+
+.letterY {
+    font-family: "LetterGothicStd";
+    font-size: 80px;
+    position: relative;
+    left: 900px;
+    bottom: 300px;
+}
+
+
+@font-face { font-family: Letter Gothic; src: url('LetterGothicStd.otf');
+}
+
+@font-face { font-family: DIN; src: url('DINPro-Light.otf');
+}
+
+@font-face { font-family: Didot; src: url('DidotLHRom');
+}
+
+@font-face { font-family: Gobold; src: url('Gobold.ttf');
+}
+
+@font-face { font-family: Gotham; src: url('Gotham-ThinItalic.otf');
+}
