@@ -1,0 +1,110 @@
+body {
+    background-color: white;
+    margin: 0px;
+    border: 30px solid #77c378;
+    overflow: hidden;
+}
+
+h1 {
+    color: #77c378;
+    font-family: "LetterGothicStd";
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h2 {
+    color: #77c378;
+    font-family: "LetterGothicStd";
+    transform: rotate(270deg);
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    width: 140px;
+    left: -45px;
+}
+
+a:link {
+    color: #77c378;
+    text-decoration: none;
+}
+
+a:visited {
+    border: 5px solid black;
+    color: #77c378;
+    text-decoration: none;
+}
+
+.rose {
+    text-align: left;
+    position: relative;
+    left: 200px;
+    top: -48px;
+    font-size: 24px;
+    line-height: 160%;
+    color: #3399FF;
+    font-family: "Rockwell";
+    height: 10px;
+}
+
+.hand {
+    text-align: left;
+    position: relative;
+    left: 300px;
+    top: 205px;
+    font-size: 16px;
+    line-height: 170%;
+    color: #FF8F45;
+    font-family: "DIN";
+    height: 1px;
+}
+
+p {
+   text-align: left;
+    position: relative;
+    left: 480px;
+    top: -48px;
+    font-size: 18px;
+    line-height: 200%;
+    color: #77c378;
+    font-family: "Gobold";
+    height: 10px; 
+}
+
+.box1 {
+    background-color: #77c378;
+    height: 24px;
+    width: 320px;
+    position:relative;
+    left: 478px;
+    top: -70px;
+}
+
+.box2 {
+    background-color: #77c378;
+    height: 24px;
+    width: 37px;
+    position:relative;
+    left: 478px;
+    top: -58px;
+}
+
+.clickBox {
+    background-color: white;
+    border: 5px solid black;
+    height: 19px;
+    width: 135px;
+    position:relative;
+    left: 654px;
+    top: -50px;
+}
+
+.box3 {
+    background-color: #77c378;
+    height: 24px;
+    width: 320px;
+    position:relative;
+    left: 478px;
+    top: -41px;
+}

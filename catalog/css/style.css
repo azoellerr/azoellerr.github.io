@@ -2,6 +2,7 @@ body {
     background-color: #A2A2A2;
     margin: 0px;
     border: 30px solid black;
+    overflow: hidden;
 }
 
 h1 {
@@ -24,6 +25,14 @@ h2 {
     left: -45px;
 }
 
+h1:hover {
+    color:black;
+}
+
+h2:hover {
+    color: black;
+}
+
 .letterP {
     font-family: "Rockwell";
     font-size: 80px;
@@ -39,7 +48,6 @@ h2 {
     margin-left: 200px;
     text-align: center;
     width: 400px;
-
 }
 
 .letterE {
@@ -109,4 +117,34 @@ a:link {
 a:visited {
     color: black;
     text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    position: relative;
+    top: -2px;
+}
+
+.myhover:hover {
+    color: #3399FF;
+}
+
+.myhover2:hover {
+    color: #646466;
+}
+
+.myhover3:hover {
+    color: #FF8F45;
+}
+
+.myhover4:hover {
+    color: #77c378;
+}
+
+.myhover5:hover {
+    color: #f04942;
+}
+
+.myhover6:hover {
+    color: #f6de5d;
 }

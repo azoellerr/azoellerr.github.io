@@ -2,6 +2,7 @@ body {
     background-color: white;
     margin: 0px;
     border: 30px solid #FF8F45;
+    overflow: hidden;
 }
 
 h1 {
@@ -35,13 +36,25 @@ a:visited {
     text-decoration: none;
 }
 
+.rose {
+    text-align: left;
+    position: relative;
+    left: 200px;
+    top: -48px;
+    font-size: 24px;
+    line-height: 160%;
+    color: #3399FF;
+    font-family: "Rockwell";
+    height: 10px;
+}
+
 p {
     text-align: left;
     position: relative;
-    left: 400px;
+    left: 300px;
     font-size: 16px;
     line-height: 170%;
-    color: black;
+    color: #FF8F45;
     font-family: "DIN";
     height: 1px;
 }
@@ -51,7 +64,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 397px;
+    left: 298px;
     top: -18px;
 }
 
@@ -60,7 +73,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 397px;
+    left: 298px;
     top: -14px;
 }
 
@@ -69,7 +82,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 397px;
+    left: 298px;
     top: -10px;
 }
 
@@ -78,7 +91,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 397px;
+    left: 298px;
     top: -5px;
 }
 
@@ -87,7 +100,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 397px;
+    left: 298px;
     top: -1px;
 }
 
@@ -96,7 +109,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 397px;
+    left: 298px;
     top: 3px;
 }
 
@@ -105,17 +118,17 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 397px;
+    left: 298px;
     top: 6px;
 }
 
 .clickBox {
     background-color: white;
     border: 5px solid black;
-    height: 19px;
-    width: 374px;
+    height: 16px;
+    width: 372px;
     position: relative;
-    left: 394px;
+    left: 297px;
     top: 55px;
 }
 
@@ -124,7 +137,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 397px;
+    left: 298px;
     top: 60px;
 }
 
@@ -133,7 +146,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 397px;
+    left: 298px;
     top: 63px;
 }
 
@@ -142,7 +155,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 397px;
+    left: 298px;
     top: 66px;
 }
 
@@ -151,6 +164,10 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 397px;
+    left: 298px;
     top: 69px;
+}
+
+@font-face { 
+    font-family: DIN; src: url('DINPro-Light.otf');
 }
