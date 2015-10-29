@@ -1,8 +1,7 @@
 body {
     background-color: white;
     margin: 0px;
-    border: 30px solid #3399FF
-;
+    border: 30px solid #3399FF;
 }
 
 h1 {
@@ -11,6 +10,18 @@ h1 {
     font-size: 12px;
     text-align: center;
     padding-top: 15px;
+}
+
+h2 {
+    color: #3399FF;
+    font-family: "LetterGothicStd";
+    transform: rotate(270deg);
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    width: 140px;
+    left: -45px;
 }
 
 p {
@@ -97,6 +108,13 @@ p {
     top: -233px;
 }
 
+a:link {
+    color: #3399FF;
+    text-decoration: none;
+}
+
 a:visited {
     border: 5px solid black;
+    color: #3399FF;
+    text-decoration: none;
 }
