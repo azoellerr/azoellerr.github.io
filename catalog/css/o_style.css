@@ -25,6 +25,14 @@ h2 {
     left: -45px;
 }
 
+h1:hover {
+    color:black;
+}
+
+h2:hover {
+    color: black;
+}
+
 a:link {
     color: #FF8F45;
     text-decoration: none;
@@ -39,7 +47,7 @@ a:visited {
 .rose {
     text-align: left;
     position: relative;
-    left: 200px;
+    left: 120px;
     top: -48px;
     font-size: 24px;
     line-height: 160%;
@@ -51,7 +59,7 @@ a:visited {
 p {
     text-align: left;
     position: relative;
-    left: 300px;
+    left: 200px;
     font-size: 16px;
     line-height: 170%;
     color: #FF8F45;
@@ -64,7 +72,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 298px;
+    left: 198px;
     top: -18px;
 }
 
@@ -73,7 +81,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 298px;
+    left: 198px;
     top: -14px;
 }
 
@@ -82,7 +90,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 298px;
+    left: 198px;
     top: -10px;
 }
 
@@ -91,7 +99,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 298px;
+    left: 198px;
     top: -5px;
 }
 
@@ -100,7 +108,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 298px;
+    left: 198px;
     top: -1px;
 }
 
@@ -109,7 +117,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 298px;
+    left: 198px;
     top: 3px;
 }
 
@@ -118,7 +126,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 298px;
+    left: 198px;
     top: 6px;
 }
 
@@ -128,7 +136,7 @@ p {
     height: 16px;
     width: 372px;
     position: relative;
-    left: 297px;
+    left: 197px;
     top: 55px;
 }
 
@@ -137,7 +145,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 298px;
+    left: 198px;
     top: 60px;
 }
 
@@ -146,7 +154,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 298px;
+    left: 198px;
     top: 63px;
 }
 
@@ -155,7 +163,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 298px;
+    left: 198px;
     top: 66px;
 }
 
@@ -164,7 +172,7 @@ p {
     height: 24px;
     width: 380px;
     position:relative;
-    left: 298px;
+    left: 198px;
     top: 69px;
 }
 
