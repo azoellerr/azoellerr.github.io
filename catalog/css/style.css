@@ -130,15 +130,15 @@ a:hover {
 }
 
 .myhover2:hover {
-    color: #646466;
-}
-
-.myhover3:hover {
     color: #FF8F45;
 }
 
-.myhover4:hover {
+.myhover3:hover {
     color: #77c378;
+}
+
+.myhover4:hover {
+    color: #646466;
 }
 
 .myhover5:hover {
