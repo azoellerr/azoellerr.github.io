@@ -1,0 +1,85 @@
+body {
+    background-color: #A2A2A2;
+    margin: 0px;
+    border: 30px solid black;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    font-family: "LetterGothicStd";
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h2 {
+    color: white;
+    font-family: "LetterGothicStd";
+    transform: rotate(270deg);
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    width: 140px;
+    left: -45px;
+}
+
+h1:hover {
+    color:black;
+}
+
+h2:hover {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.rose {
+    position: relative;
+    left:300px;
+    font-family: "LetterGothicStd";
+}
+
+.hand {
+    position: relative;
+    left:300px;
+    font-family: "LetterGothicStd";
+}
+
+.poet {
+    position: relative;
+    left:300px;
+    font-family: "LetterGothicStd";
+}
+
+.clay {
+    position: relative;
+    left:300px;
+    font-family: "LetterGothicStd";
+}
+
+.fairies {
+    position: relative;
+    left:300px;
+    font-family: "LetterGothicStd";
+}
+
+p {
+    text-align: center;
+    width: 100%;
+    font-family: "LetterGothicStd";
+    font-size: 12px;
+    line-height: 200%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
+}
