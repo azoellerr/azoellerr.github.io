@@ -63,7 +63,7 @@ p {
     font-size: 16px;
     line-height: 170%;
     color: #FF8F45;
-    font-family: "DIN";
+    font-family: 'Abel', sans-serif;
     height: 1px;
 }
 
@@ -174,8 +174,4 @@ p {
     position:relative;
     left: 198px;
     top: 69px;
-}
-
-@font-face { 
-    font-family: DIN; src: url('DINPro-Light.otf');
 }

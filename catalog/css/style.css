@@ -43,7 +43,7 @@ h2:hover {
 }
 
 .letterO {
-    font-family: "DIN";
+    font-family: 'Abel', sans-serif;
     font-size: 80px;
     margin-left: 200px;
     text-align: center;
@@ -51,7 +51,7 @@ h2:hover {
 }
 
 .letterE {
-    font-family: "Didot";
+    font-family: 'Unna', serif;
     font-size: 80px;
     position: relative;
     top: 120px;
@@ -60,7 +60,7 @@ h2:hover {
 }
 
 .letterT {
-    font-family: "Gobold";
+    font-family: 'Oswald', sans-serif;
     font-size: 80px;
     position: relative;
     left: 625px;
@@ -68,7 +68,7 @@ h2:hover {
 }
 
 .letterR {
-    font-family: "Gotham-ThinItalic";
+    font-family: 'Lato', sans-serif;
     font-size: 80px;
     font-style: italic;
     position: relative;
@@ -91,22 +91,6 @@ h2:hover {
     position: relative;
     left: 386;
     bottom: 385px;
-}
-
-
-@font-face { font-family: Letter Gothic; src: url('LetterGothicStd.otf');
-}
-
-@font-face { font-family: DIN; src: url('DINPro-Light.otf');
-}
-
-@font-face { font-family: Didot; src: url('DidotLHRom');
-}
-
-@font-face { font-family: Gobold; src: url('Gobold.ttf');
-}
-
-@font-face { font-family: Gotham; src: url('Gotham-ThinItalic.otf');
 }
 
 a:link {

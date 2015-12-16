@@ -64,7 +64,7 @@ a:visited {
     font-size: 16px;
     line-height: 170%;
     color: #FF8F45;
-    font-family: "DIN";
+    font-family: 'Abel', sans-serif;
     height: 1px;
 }
 
@@ -76,7 +76,7 @@ a:visited {
     font-size: 18px;
     line-height: 200%;
     color: #77c378;
-    font-family: "Gobold";
+    font-family: 'Oswald', sans-serif;
     height: 10px; 
 }
 
@@ -94,7 +94,7 @@ p {
     left: 630;
     top: -120;
     position: relative;
-    font-family: "Didot";
+    font-family: 'Unna', serif;
     line-height: 170%;
     height: 5px;
 }
@@ -220,8 +220,8 @@ p {
     position: relative;
     top: -215;
     height: 15px;
-    width: 85px;
+    width: 124px;
     background-color: white;
     border: 5px solid black;
-    left: 910px;
+    left: 870px;
 }
